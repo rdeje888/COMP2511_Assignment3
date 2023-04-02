@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+* {
+    font-family: Alkatra;
+}
+
+
+body {
+    background-color: black !important;
+}
+
+
+.nav {
+    background-color: white;
+}
+
+.navbar-brand {
+    font-size: 50px !important;
+    padding: 15px;
+}
+
+.nav-link {
+    font-size: 25px;
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: rgb(201, 44, 201);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.2s;
+}
+.nav-link:hover::after {
+    content: '';
+    opacity: 1;
+}
+
+li {
+    margin: 10px;
+    padding: 10px;
+}
+
+#color-nav {
+    color: black
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+}
+
+p {
+    font-size: 20px;
+    color:white;
+    
+}
+
+figure {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+img {
+    transition: transform 1s;
+}
+
+img:hover {
+    transform: scale(2);
+}
+
+figcaption{
+    text-align: center;
+    color: white;
+}
+
+.col {
+    padding-top: 5%;
+}
+
+footer p {
+    color: black;
+}
